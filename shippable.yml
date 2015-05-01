@@ -3,6 +3,8 @@ language: node_js
 node_js:
   - 0.10.25
 
+build_image: shippable/minv2:latest
+
 env:
   global:
     - XUNIT_FILE=shippable/testresults/result.xml
