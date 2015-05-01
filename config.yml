@@ -1,8 +1,8 @@
 branch-defaults:
   master:
-    environment: sample-nodejs-env
+    environment: ragNode-env
 global:
-  application_name: sample-nodejs
-  default_region: us-west-2
+  application_name: ragNode
+  default_region: us-east-1
   profile: eb-cli
   sc: git
